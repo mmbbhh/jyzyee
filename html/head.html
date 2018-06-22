@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>东秦30周年校庆</title>
+	<link rel="stylesheet" href="../css/lunbo.css" />
+	<link rel="stylesheet" href="../css/lunbo2.css" />
+	<link rel="stylesheet" href="../css/cy.css" />
+	<script type="text/javascript" src="../js/lunbo.js"></script>
+	<script>
+		(function(doc) {
+			var addEvent = 'addEventListener',
+				type = 'gesturestart',
+				qsa = 'querySelectorAll',
+				scales = [1, 1],
+				meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+			function fix() {
+				meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+				doc.removeEventListener(type, fix, true);
+			}
+			if((meta = meta[meta.length - 1]) && addEvent in doc) {
+				fix();
+				scales = [.25, 1.6];
+				doc[addEvent](type, fix, true);
+			}
+		}(document));
+	</script>
+</head>
+
+<style>
+	li {
+		list-style-type: none;
+	}
+	
+	#areset {
+		text-decoration: none;
+		color: black;
+	}
+	
+	#areset:hover {
+		text-decoration: none;
+		color: darkblue;
+	}
+	
+	#areset2 {
+		text-decoration: none;
+		color: #AE6333;
+	}
+	
+	@-webkit-keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes fadeIn2 {
+		0% {
+			opacity: 0.4;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes change {
+		0% {
+			-webkit-transform: rotate(0deg);
+		}
+		100% {
+			-webkit-transform: rotate(360deg);
+		}
+	}
+	
+	@-webkit-keyframes jump {
+		0% {
+			margin-top: 35px;
+		}
+		50% {
+			margin-top: 0px;
+		}
+		100% {
+			margin-top: 35px;
+		}
+	}
+	
+	body {
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background: #FFFFFF;
+	}
+	
+	.sad {
+		height: 120px;
+		width: 120px float: left;
+		margin-top: 10px;
+		margin-left: 65px;
+		-webkit-animation: change 0.5s linear;
+	}
+	
+	.head {
+		width: 100%;
+		height: 800px;
+		background-image: url(../img/7799.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		filter: blur(10px);
+		position: absolute;
+		z-index: -99;
+	}
+	
+	#du {
+		width: 1300px;
+		height: 2475px;
+		background-color: rgba(199, 237, 204, 0.2);
+		margin: 0 auto;
+	}
+	
+	#dh {
+		height: 50px;
+		background: linear-gradient(#C8C8C8, #595959);
+		margin-top: -26px;
+		font-family: "幼圆";
+		color: #98A6A9;
+		font-size: 20px;
+	}
+	
+	.XQGG {
+		margin-top: 50px;
+		margin-left: 5px;
+		width: 340px;
+		height: 703px;
+		float: left;
+	}
+	
+	.XQGG .biaot {
+		width: 340px;
+		height: 56px;
+		font-family: STXinwei;
+		font-size: 30px;
+		line-height: 50px;
+		border-bottom: 3px solid #AE6333;
+		color: #AE6333;
+	}
+	
+	.ns {
+		width: 336px;
+		margin-top: 20px;
+		height: 620px;
+		border: 2px solid #AE6333;
+	}
+	
+	.wen {
+		width: 300px;
+		height: 70px;
+		margin: 0 auto;
+		margin-top: 25px;
+		border-bottom: 1px dashed #AE6333;
+		font-family: STKaiti;
+		font-size: 20px;
+		line-height: 30px;
+		text-decoration: none;
+	}
+	
+	.wen a {
+		font-size: 18px;
+	}
+	
+	.wen1 {
+		width: 300px;
+		height: 70px;
+		margin: 0 auto;
+		margin-top: 10px;
+		border-bottom: 1px dashed #AE6333;
+		font-family: STKaiti;
+		font-size: 20px;
+		line-height: 23px;
+		text-decoration: none;
+	}
+	
+	.wen1 a {
+		font-size: 18px;
+	}
+	
+	.more {
+		line-height: 30px;
+		text-align: right;
+		margin: 0 auto;
+		width: 300px;
+		height: 20px;
+		font-family: "楷体";
+		font-size: 20px;
+	}
+	
+	.more2 {
+		line-height: 30px;
+		text-align: right;
+		margin: 0 auto;
+		width: 840px;
+		height: 20px;
+		font-family: "微软雅黑";
+	}
+	
+	.more3 {
+		line-height: 30px;
+		text-align: right;
+		margin: 0 auto;
+		width: 833px;
+		height: 20px;
+		font-family: "微软雅黑";
+	}
+	
+	.more4 {
+		line-height: 30px;
+		text-align: right;
+		margin: 0 auto;
+		width: 310px;
+		height: 20px;
+		font-family: "微软雅黑";
+	}
+	
+	.more5 {
+		line-height: 30px;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-family: "微软雅黑";
+		text-decoration: none;
+		color: black;
+	}
+	
+	.XSHG {
+		margin-top: 49px;
+		margin-left: 48px;
+		width: 870px;
+		height: 703px;
+		float: left;
+	}
+	
+	.XSHG .biaot {
+		width: 870px;
+		height: 56px;
+		font-family: STXinwei;
+		font-size: 30px;
+		line-height: 50px;
+		border-bottom: 3px solid #AE6333;
+		color: #AE6333;
+	}
+	
+	.wen3 {
+		width: 840px;
+		height: 40px;
+		margin: 0 auto;
+		margin-top: 10px;
+		border-bottom: 1px dashed #AE6333;
+		font-family: STKaiti;
+		font-size: 20px;
+		line-height: 30px;
+		text-decoration: none;
+	}
+	
+	.wen4 {
+		width: 840px;
+		height: 40px;
+		margin: 0 auto;
+		margin-top: 10px;
+		border-bottom: 1px dashed #AE6333;
+		font-family: STKaiti;
+		font-size: 20px;
+		line-height: 30px;
+		text-decoration: none;
+	}
+	
+	.XQXW {
+		margin-top: 40px;
+		margin-left: -338px;
+		float: left;
+		width: 840px;
+		height: 343px;
+		border-bottom: 3px solid #AE6333;
+	}
+	
+	.XQXW .biaot {
+		width: 840px;
+		height: 56px;
+		font-family: STXinwei;
+		font-size: 30px;
+		line-height: 50px;
+		border-bottom: 3px solid #AE6333;
+		color: #AE6333;
+	}
+	
+	.lann {
+		width: 836px;
+		margin-top: 8px;
+		height: 38px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		font-family: Georgia;
+		line-height: 30px;
+		font-size: 18px;
+		border-bottom: 1px dashed #AE6333;
+	}
+	
+	.zw {
+		width: 713px;
+		margin-left: 166px;
+		height: 40px;
+		margin-top: -39px;
+		font-family: STKaiti;
+		font-size: 20px;
+		line-height: 45px;
+		padding-left: 27px;
+	}
+	
+	.XQHD {
+		margin-top: 62px;
+		margin-left: 5px;
+		float: left;
+		width: 840px;
+		border-bottom: 3px solid #AE6333;
+		height: 343px;
+	}
+	
+	.XQHD .biaot {
+		width: 840px;
+		height: 56px;
+		font-family: STXinwei;
+		font-size: 30px;
+		line-height: 50px;
+		border-bottom: 3px solid #AE6333;
+		color: #AE6333;
+	}
+	
+	.XYFC {
+		margin-top: -347px;
+		margin-left: 48px;
+		width: 370px;
+		height: 752px;
+		float: left;
+		border-bottom: 3px solid #AE6333;
+	}
+	
+	.XYFC .biaot {
+		width: 370px;
+		height: 56px;
+		font-family: STXinwei;
+		font-size: 30px;
+		line-height: 50px;
+		border-bottom: 3px solid #AE6333;
+		color: #AE6333;
+	}
+	
+	.xiaomk {
+		width: 330px;
+		height: 320px;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	
+	.xiaomk .t {
+		width: 240px;
+		height: 240px;
+		background: url(../img/fengcai.jpg);
+		background-size: 100% 100%;
+		margin: 0 auto;
+	}
+	
+	.xiaomk .t2 {
+		width: 240px;
+		height: 240px;
+		background: url(../img/1001.jpg);
+		background-size: 100% 100%;
+		margin: 0 auto;
+	}
+	
+	.xiaomk .w {
+		width: 310px;
+		height: 64px;
+		margin: 0 auto;
+		margin-top: 10px;
+		font-family: STKaiti;
+		font-size: 20px;
+		line-height: 30px;
+		text-decoration: none;
+		text-align: center;
+		border-bottom: 1px dashed #AE6333;
+	}
+	
+	.ZTTJ {
+		margin-top: 50px;
+		margin-left: 5px;
+		width: 1260px;
+		height: 210px;
+		float: left;
+	}
+	
+	.ZTTJ .biaot {
+		width: 1260px;
+		height: 56px;
+		font-family: STXinwei;
+		font-size: 30px;
+		line-height: 50px;
+		border-bottom: 3px solid #AE6333;
+		color: #AE6333;
+	}
+	
+	.szqh {
+		margin-top: 30px;
+		margin-left: 58px;
+		width: 250px;
+		height: 100px;
+		background: url(../img/szqh.png);
+		background-size: 100% 100%;
+		display: block;
+		float: left;
+	}
+	
+	.lxyz {
+		margin-top: 30px;
+		margin-left: 45px;
+		width: 250px;
+		height: 100px;
+		background: url(../img/lxyz.png);
+		background-size: 100% 100%;
+		display: block;
+		float: left;
+	}
+	
+	.lzqh {
+		margin-top: 30px;
+		margin-left: 45px;
+		width: 250px;
+		height: 100px;
+		background: url(../img/lzqh.jpg);
+		background-size: 100% 100%;
+		display: block;
+		float: left;
+	}
+	
+	.xjpjh {
+		margin-top: 30px;
+		margin-left: 45px;
+		width: 250px;
+		height: 100px;
+		background: url(../img/xjpjh.jpg);
+		background-size: 100% 100%;
+		display: block;
+		float: left;
+	}
+	
+	.last {
+		border-top: 2px solid #AE6333;
+		width: 100%;
+		height: 150px;
+		background-color: rgb(206, 212, 220);
+	}
+	
+	.tlast {
+		width: 600px;
+		height: 150px;
+		margin: 0 auto;
+	}
+	
+	.asd {
+		width: 600px;
+		height: 120px;
+		margin-top: 15px;
+		float: left;
+		font-family: STKaiti;
+		font-size: 18px;
+		line-height: 30px;
+		text-align: center;
+		color: #AE6333;
+	}
+</style>
+
+<body style="margin:0 auto;">
+	<div class="head"></div>
+
+	<div id="du">
+		<div id="jj">
+			<div class="hell13">院</div>
+			<div class="hell12">学</div>
+			<div class="hell11">理</div>
+			<div class="hell10">管</div>
+			<div class="hell9">校</div>
+			<div class="hell8">分</div>
+			<div class="hell7">岛</div>
+			<div class="hell6">皇</div>
+			<div class="hell5">秦</div>
+			<div class="hell4">学</div>
+			<div class="hell3">大</div>
+			<div class="hell2">北</div>
+			<div class="hell1">东</div>
+		</div>
+		<div id="banner_tabs" class="flexslider">
+			<ul class="slides">
+				<li>
+					<a href="#">
+						<img width="1920" height="482" alt="" style="background: url(../img/10004.jpg) no-repeat center;" src="../img/alpha.png">
+					</a>
+				</li>
+				<li>
+					<a title="" href="#">
+						<img width="1920" height="482" alt="" style="background: url(../img/10007.jpg) no-repeat center;" src="../img/alpha.png">
+					</a>
+				</li>
+				<li>
+					<a title="" href="#">
+						<img width="1920" height="482" alt="" style="background: url(../img/10008.jpg) no-repeat center;" src="../img/alpha.png">
+					</a>
+				</li>
+
+			</ul>
+			<ul class="flex-direction-nav">
+				<li>
+					<a class="flex-prev" href="javascript:;">Previous</a>
+				</li>
+				<li>
+					<a class="flex-next" href="javascript:;">Next</a>
+				</li>
+			</ul>
+			<ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+				<li>
+					<a>1</a>
+				</li>
+				<li>
+					<a>2</a>
+				</li>
+				<li>
+					<a>2</a>
+				</li>
+			</ol>
+		</div>
+		<div id="dh">
+			<ul>
+				<li>
+					<a href="#">学院概况</a>
+					<ul>
+						<li>
+							<a href="#">学院简介</a>
+						</li>
+						<li>
+							<a href="#">机构设置</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">师资力量</a>
+					<ul>
+						<li>
+							<a href="#">学院办公室</a>
+						</li>
+						<li>
+							<a href="#">教学科研办公室</a>
+						</li>
+						<li>
+							<a href="#">信息管理与信息系统</a>
+						</li>
+						<li>
+							<a href="#">工商管理</a>
+						</li>
+						<li>
+							<a href="#">市场营销</a>
+						</li>
+						<li>
+							<a href="#">会计学</a>
+						</li>
+						<li>
+							<a href="#">电子商务</a>
+						</li>
+						<li>
+							<a href="#">行政管理</a>
+						</li>
+						<li>
+							<a href="#">工业工程</a>
+						</li>
+						<li>
+							<a href="#">法律教研室</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">专业设置</a>
+					<ul>
+						<li>
+							<a href="#">信息管理与信息系统</a>
+						</li>
+						<li>
+							<a href="#">工商管理</a>
+						</li>
+						<li>
+							<a href="#">市场营销</a>
+						</li>
+						<li>
+							<a href="#">会计学</a>
+						</li>
+						<li>
+							<a href="#">电子商务</a>
+						</li>
+						<li>
+							<a href="#">行政管理</a>
+						</li>
+						<li>
+							<a href="#">工业工程</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">教学科研</a>
+					<ul>
+						<li>
+							<a href="#">科研动态</a>
+						</li>
+						<li>
+							<a href="#">科研成果</a>
+						</li>
+						<li>
+							<a href="#">教学信息</a>
+						</li>
+						<li>
+							<a href="#">研究所</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">党建工作</a>
+					<ul>
+						<li>
+							<a href="#">院党校</a>
+						</li>
+						<li>
+							<a href="#">教师党支部</a>
+						</li>
+						<li>
+							<a href="#">学生党支部</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">学生工作</a>
+					<ul>
+						<li>
+							<a href="#">分团委</a>
+						</li>
+						<li>
+							<a href="#">学生会</a>
+						</li>
+						<li>
+							<a href="#">学生管理</a>
+						</li>
+						<li>
+							<a href="#">班级风采</a>
+						</li>
+						<li>
+							<a href="#">校级优秀班集体</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">新闻快报</a>
+				</li>
+				<li>
+					<a href="#">通知公告</a>
+				</li>
+				<li>
+					<a href="#">学生获奖</a>
+					<ul>
+						<li>
+							<a href="#">科技竞赛获奖</a>
+						</li>
+						<li>
+							<a href="#">荣誉获奖</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">资源下载</a>
+					<ul>
+						<li>
+							<a href="#">课件下载</a>
+						</li>
+						<li>
+							<a href="#">表格下载</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="XQGG">
+			<div class="biaot">
+				通知公告
+			</div>
+			<div class="ns">
+				<div class="wen">
+					<SPAN style="font-family: Georgia; font-size:16px;">2017年03月09日</SPAN>
+					<a href="../page/GG.html" id="areset">东北大学秦皇岛分校2017年硕士研究生调剂意向征集通知</a>
+				</div>
+				<div class="wen1">
+					<SPAN style="font-family: Georgia; font-size:16px;">2017年01月13日</SPAN>
+					<a href="../page/GG2.html" id="areset">东北大学秦皇岛分校关于征集建校30周年校庆标志和宣传口号的公告</a>
+				</div>
+				<div class="wen1">
+					<SPAN style="font-family: Georgia; font-size:16px;">2017年01月13日</SPAN>
+					<a href="../page/GG3.html" id="areset">东北大学秦皇岛分校关于开展校庆三十周年​征文活动的通知</a>
+				</div>
+				<div class="wen1">
+					<SPAN style="font-family: Georgia; font-size:16px;">2016年12月06日</SPAN>
+					<a href="../page/GG4.html" id="areset">关于启用后勤报修电话的通知</a>
+				</div>
+				<div class="wen1">
+					<SPAN style="font-family: Georgia; font-size:16px;">2016年11月22日</SPAN>
+					<a href="../page/GG5.html" id="areset">东北大学秦皇岛分校2016年辅导员岗位招聘启事（二）</a>
+				</div>
+				<div class="wen1">
+					<SPAN style="font-family: Georgia; font-size:16px;">2016年11月04日</SPAN>
+					<a href="../page/GG6.html" id="areset">岗位招聘启事</a>
+				</div>
+				<div class="wen1">
+					<SPAN style="font-family: Georgia; font-size:16px;">2016年11月04日</SPAN>
+					<a href="../page/GG7.html" id="areset">东北大学秦皇岛分校2016年非专任教师岗位招聘启事（三）</a>
+				</div>
+				<div class="more">
+					<a href="GGZ.html" id="areset2">更多公告</a>
+				</div>
+			</div>
+		</div>
+		<div class="XSHG">
+			<div class="biaot">
+				新闻快报
+			</div>
+			<div id="tup">
+				<input class="arrow1" type="image" src="../img/8888.png" onClick="prve()" />
+				<input class="arrow2" type="image" src="../img/9999.png" onClick="next()" />
+				<input name="He" id="0001" class="xuant" type="radio" onClick="aa()" checked/>
+				<input name="He" id="0002" class="xuan" type="radio" onClick="bb()" />
+				<input name="He" id="0003" class="xuan" type="radio" onClick="cc()" />
+				<input name="He" id="0004" class="xuan" type="radio" onClick="dd()" />
+				<input name="He" id="0005" class="xuan" type="radio" onClick="ee()" />
+			</div>
+			<div class="wen3">
+				<a href="../page/HG.html" id="areset">1996年，正式进入首批"211工程"重点建设行列，承担东北大学"211工程"建设子项目。</a>
+			</div>
+			<div class="wen4">
+				<a href="../page/HG2.html" id="areset">1998年，随东北大学划入教育部。</a>
+			</div>
+			<div class="wen4">
+				<a href="../page/HG3.html" id="areset">2001年，经教育部批准，电子注册和学生毕业统一归口东北大学。</a>
+			</div>
+			<div class="wen4">
+				<a href="../page/HG4.html" id="areset">2006年，开始承担东北大学"985工程"建设子项目。</a>
+			</div>
+			<div class="wen4">
+				<a href="../page/HG5.html" id="areset">2015年7月8日，秦皇岛市政府与我校召开合作对接会。</a>
+			</div>
+			<div class="more2">
+				<a href="HGZ.html" id="areset2" style="line-height: 30px;">更多新闻</a>
+			</div>
+		</div>
+		<div class="XQXW">
+			<div class="biaot">
+				教学信息
+			</div>
+			<div class="lann">2017年03月28日
+				<div class="zw">
+					<a href="../page/XW.html" id="areset">
+						【献礼东秦30年】东秦老照片与今日东秦的流彩华章</a>
+				</div>
+			</div>
+			<div class="lann">2017年03月15日
+				<div class="zw">
+					<a href="../page/XW2.html" id="areset">
+						管理学院成功召开2017年全院教职工大会</a>
+				</div>
+			</div>
+			<div class="lann">2017年03月13日
+				<div class="zw">
+					<a href="../page/XW3.html" id="areset">
+						东北大学秦皇岛分校第七届教职工代表大会第一次会议</a>
+				</div>
+			</div>
+			<div class="lann">2017年01月13日
+				<div class="zw">
+					<a href="../page/XW4.html" id="areset">
+						东北大学秦皇岛分校关于征集建校30周年校庆标志和宣传口号的公告</a>
+				</div>
+			</div>
+			<div class="lann">2017年01月13日
+				<div class="zw">
+					<a href="../page/XW5.html" id="areset">
+						东北大学秦皇岛分校关于开展校庆三十周年征文活动的通知</a>
+				</div>
+			</div>
+			<div class="more3">
+				<a href="XWZ.html" id="areset2">更多信息</a>
+			</div>
+		</div>
+		<div class="XQHD">
+			<div class="biaot">
+				学生管理
+			</div>
+			<div class="lann">2017年03月21日
+				<div class="zw">
+					<a href="../page/HD.html" id="areset">
+						“东北大学秦皇岛分校三十周年校庆”专题网站设计大赛</a>
+				</div>
+			</div>
+			<div class="lann">2017年03月20日
+				<div class="zw">
+					<a href="../page/HD2.html" id="areset">
+						忆往昔青春岁月，愿母校欣欣向荣——经管2003级校友返校</a>
+				</div>
+			</div>
+			<div class="lann">2017年02月22日
+				<div class="zw">
+					<a href="../page/HD3.html" id="areset">
+						东北大学秦皇岛分校寻访优秀校友实践活动</a>
+				</div>
+			</div>
+			<div class="lann">2017年01月13日
+				<div class="zw">
+					<a href="../page/HD4.html" id="areset">
+						东北大学秦皇岛分校关于开展校庆三十周年​征文活动</a>
+				</div>
+			</div>
+			<div class="lann">2017年01月13日
+				<div class="zw">
+					<a href="../page/HD5.html" id="areset">
+						东北大学秦皇岛分校关于征集建校30周年校庆标志和宣传口号</a>
+				</div>
+			</div>
+			<div class="more3">
+				<a href="HDZ.html" id="areset2">更多信息</a>
+			</div>
+		</div>
+		<div class="XYFC">
+			<div class="biaot">
+				学院风采
+			</div>
+			<div class="xiaomk">
+				<div class="t">
+				</div>
+				<div class="w">
+					<a href="../page/FC.html" id="areset">第十三届“拾梦岁月，溢彩韶华”校园女生节闭幕式顺利举行</a>
+				</div>
+			</div>
+			<div class="xiaomk">
+				<div class="t2">
+				</div>
+				<div class="w">
+					<a href="../page/FC2.html" id="areset"><br>【风采人物】青春年华，上下求索</a>
+				</div>
+				<div class="more4">
+					<a href="FCZ.html" id="areset2">更多风采</a>
+				</div>
+			</div>
+		</div>
+		<div class="ZTTJ">
+			<div class="biaot">
+				专题推荐
+			</div>
+			<a href="http://www.12371.cn/special/xxgc18szqh/" class="szqh"></a>
+			<a href="http://lxyz.12371.cn/" class="lxyz"></a>
+			<a href="http://www.12371.cn/special/18jlzqh/" class="lzqh"></a>
+			<a href="http://www.12371.cn/special/18jlzqh/" class="xjpjh"></a>
+		</div>
+	</div>
+	<div class="last">
+		<div class="tlast">
+			<div class="asd">
+				友情链接:
+				<a href="http://www.moe.gov.cn/" class="more5">教育部</a>
+				<a href="http://www.neuq.edu.cn/" class="more5">学校官网</a>
+				<br>地址：河北省秦皇岛经济技术开发区泰山路143号
+				<br>邮编：066004
+				<br>制作：by管院网站小分队
+			</div>
+		</div>
+	</div>
+</body>
+<script src="../js/lun.js"></script>
+<script src="../js/slider.js"></script>
+<script type="text/javascript">
+	$(function() {
+		var bannerSlider = new Slider($('#banner_tabs'), {
+			time: 5000,
+			delay: 400,
+			event: 'hover',
+			auto: true,
+			mode: 'fade',
+			controller: $('#bannerCtrl'),
+			activeControllerCls: 'active'
+		});
+		$('#banner_tabs .flex-prev').click(function() {
+			bannerSlider.prev()
+		});
+		$('#banner_tabs .flex-next').click(function() {
+			bannerSlider.next()
+		});
+	})
+</script>
+
+</html>

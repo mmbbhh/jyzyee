@@ -1,0 +1,85 @@
+#tran {
+	position: absolute;
+	-webkit-animation-name: fadeIn;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: -1s;
+}
+
+#tran .zi {
+	margin-top: 150px;
+	margin-left: 300px;
+	background: url(img/自.png);
+	height: 147px;
+	width: 124px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.qiang {
+	margin-top: 155px;
+	background: url(img/强.png);
+	height: 147px;
+	width: 124px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.bu {
+	margin-top: 150px;
+	margin-left: 17px;
+	background: url(img/不.png);
+	height: 147px;
+	width: 124px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.xi {
+	margin-top: 138px;
+	margin-left: 16px;
+	background: url(img/息.png);
+	height: 147px;
+	width: 124px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.zhi {
+	margin-top: 300px;
+	margin-left: 120px;
+	background: url(img/知.png);
+	height: 147px;
+	width: 154px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+.xing {
+	margin-top: 300px;
+	margin-left: 17px;
+	background: url(img/行.png);
+	height: 147px;
+	width: 154px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+.he {
+	margin-top: 300px;
+	margin-left: 17px;
+	background: url(img/合.png);
+	height: 147px;
+	width: 154px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+.yi {
+	margin-top: 300px;
+	margin-left: 17px;
+	background: url(img/一.png);
+	height: 147px;
+	width: 154px;
+	float: left;
+	background-repeat: no-repeat;
+}

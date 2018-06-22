@@ -1,10 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
 
-</body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Hello</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link href="css/xiaoxun.css" rel="stylesheet" type="text/css" />
+	</head>
+	<style>
+		@-webkit-keyframes fadeIn {
+			0% {
+				opacity: 0;
+			}
+			50% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+		
+		@-webkit-keyframes slideIn {
+			from{right: -500px;
+			}
+			to{right: 100px;}
+		}
+		#head {
+			width: 1250px;
+			height: 450px;
+			margin: 0 auto;
+			border-bottom: 2px solid white;
+		}
+		
+		#bod{width: 1600px;
+		height: 100px;
+		margin: 0 auto;
+		margin-top:50px ;
+		font-size: 30px;
+		font-family: "幼圆";
+		color: red;
+		text-align: right;
+		line-height: 10px;
+		position: absolute;
+		-webkit-animation-name: slideIn;
+		-webkit-animation-duration: 3s;
+		-webkit-animation-fill-mode : forwards;
+		}
+		
+		body {
+			background-image: url(img/66.jpg);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+		}
+		
+		#tran {
+			position: absolute;
+			-webkit-animation-name: fadeIn;
+			-webkit-animation-duration: 3s;
+			-webkit-animation-delay: -1s;
+		}
+		
+		#tran .zi {
+			margin-top: 150px;
+			margin-left: -15px;
+			background: url(img/自.png);
+			height: 147px;
+			width: 124px;
+			background-repeat: no-repeat;
+			float: left;
+		}
+		
+		.qiang {
+			margin-top: 155px;
+			background: url(img/强.png);
+			height: 147px;
+			width: 124px;
+			background-repeat: no-repeat;
+			float: left;
+		}
+		
+		.bu {
+			margin-top: 150px;
+			margin-left: 17px;
+			background: url(img/不.png);
+			height: 147px;
+			width: 124px;
+			background-repeat: no-repeat;
+			float: left;
+		}
+		
+		.xi {
+			margin-top: 138px;
+			margin-left: 16px;
+			background: url(img/息.png);
+			height: 147px;
+			width: 124px;
+			background-repeat: no-repeat;
+			float: left;
+		}
+		
+		.zhi {
+			margin-top: 300px;
+			margin-left: 120px;
+			background: url(img/知.png);
+			height: 147px;
+			width: 154px;
+			float: left;
+			background-repeat: no-repeat;
+		}
+		
+		.xing {
+			margin-top: 300px;
+			margin-left: 17px;
+			background: url(img/行.png);
+			height: 147px;
+			width: 154px;
+			float: left;
+			background-repeat: no-repeat;
+		}
+		
+		.he {
+			margin-top: 300px;
+			margin-left: 17px;
+			background: url(img/合.png);
+			height: 147px;
+			width: 154px;
+			float: left;
+			background-repeat: no-repeat;
+		}
+		
+		.yi {
+			margin-top: 300px;
+			margin-left: 17px;
+			background: url(img/一.png);
+			height: 147px;
+			width: 154px;
+			float: left;
+			background-repeat: no-repeat;
+		}
+		
+		#inter {
+			float: left;
+			height: 148px;
+			width: 100%;
+			margin: 0 auto;
+			margin-top: 200px;
+		}
+		
+		#inter .in {
+			height: 148px;
+			width: 298px;
+			margin: 0 auto;
+			background-image: url(img/lll.gif);
+			display: block;
+		}
+	</style>
+
+	<body style="margin:0 auto;">
+		<div id="head">
+			<div id="tran">
+				<div class="zi"></div>
+				<div class="qiang"></div>
+				<div class="bu"></div>
+				<div class="xi"></div>
+				<div class="zhi"></div>
+				<div class="xing"></div>
+				<div class="he"></div>
+				<div class="yi"></div>
+			</div>
+		</div>
+		<div id="bod">
+			————————庆东北大学秦皇岛分校建校30周年
+		</div>
+		
+		<div id="inter">
+			<a href="html/head.html" class="in" />
+		</div>
+	</body>
+
 </html>

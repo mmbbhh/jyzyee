@@ -1,0 +1,400 @@
+			#areset {
+				color: black;
+				text-decoration: none;
+			}
+			
+			#areset:hover {
+				text-decoration: none;
+				color: darkblue;
+			}
+			
+			#areset2 {
+				text-decoration: none;
+				color: #AE6333;
+			}
+			
+			@-webkit-keyframes fadeIn {
+				0% {
+					opacity: 0;
+				}
+				50% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+			
+			@-webkit-keyframes fadeIn2 {
+				0% {
+					opacity: 0.4;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+			
+			@-webkit-keyframes change {
+				0% {
+					-webkit-transform: rotate(0deg);
+				}
+				100% {
+					-webkit-transform: rotate(360deg);
+				}
+			}
+			
+			@-webkit-keyframes jump {
+				0% {
+					margin-top: 35px;
+				}
+				50% {
+					margin-top: 0px;
+				}
+				100% {
+					margin-top: 35px;
+				}
+			}
+			
+			body {
+				background-repeat: no-repeat;
+				background-size: 100%;
+				background: #FFFFFF;
+			}
+			
+			.sad {
+				height: 120px;
+				width: 120px float: left;
+				margin-top: 10px;
+				margin-left: 65px;
+				-webkit-animation: change 0.5s linear;
+			}
+			
+			.head {
+				width: 100%;
+				height: 800px;
+				background-image: url(../img/7799.png);
+				background-size: 100%;
+				background-repeat: no-repeat;
+				filter: blur(10px);
+				position: absolute;
+				z-index: -99;
+			}
+			
+			.dd {
+				float: left;
+				height: 50px;
+				width: 80px;
+				display: block;
+				text-decoration: none;
+				margin-left: 230px;
+				text-align: center;
+				padding-left: 25px;
+				padding-right: 25px;
+				line-height: 50px;
+				margin-right: 40px;
+				transition: background-color .3s ease-in;
+				color: white;
+			}
+			
+			.dd:hover {
+				background: wheat;
+				text-decoration: none;
+			}
+			
+			.ds {
+				float: left;
+				height: 50px;
+				margin-right: 40px;
+				width: 80px;
+				display: block;
+				text-decoration: none;
+				padding-left: 25px;
+				padding-right: 25px;
+				text-align: center;
+				line-height: 50px;
+				transition: background-color .3s ease-in;
+				color: white;
+			}
+			
+			.ds:hover {
+				background: wheat;
+				text-decoration: none;
+			}
+			
+			#tupian {
+				width: 1300px;
+				height: 185.68px;
+				background: url(../img/1_01.jpg);
+				margin: 0 auto;
+				background-size: 100% 100%;
+			}
+			
+			.last {
+				border-top: 2px solid #AE6333;
+				width: 100%;
+				height: 150px;
+				background-color: rgb(206, 212, 220);
+			}
+			
+			.tlast {
+				width: 600px;
+				height: 150px;
+				margin: 0 auto;
+			}
+			
+			.asd {
+				width: 600px;
+				height: 120px;
+				margin-top: 15px;
+				float: left;
+				font-family: STKaiti;
+				font-size: 18px;
+				line-height: 30px;
+				text-align: center;
+				color: #AE6333;
+			}
+			
+			.more5 {
+				line-height: 30px;
+				padding-left: 5px;
+				padding-right: 5px;
+				font-family: "微软雅黑";
+				text-decoration: none;
+				color: black;
+			}
+			
+			#flower {
+				position: absolute;
+				position: fixed;
+				bottom: 0;
+				right: 0;
+				background-image: url(../img/flower.png);
+				width: 530px;
+				height: 350px;
+			}
+			
+			p {
+				text-indent: 43px;
+				line-height: 37px;
+				font-size: 21px;
+				font-family: "仿宋";
+			}
+			
+			.hell1 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 0.2s;
+			}
+			
+			.hell2 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 0.4s;
+			}
+			
+			.hell3 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 0.6s;
+			}
+			
+			.hell4 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 0.8s;
+			}
+			
+			.hell5 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 1.0s;
+			}
+			
+			.hell6 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 1.2s;
+			}
+			
+			.hell7 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 1.4s;
+			}
+			
+			.hell8 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 1.6s;
+			}
+			
+			.hell9 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 1.8s;
+			}
+			
+			.hell10 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 2.0s;
+			}
+			
+			.hell11 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 2.2s;
+			}
+			
+			.hell12 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 3px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 2.4s;
+			}
+			
+			.hell13 {
+				font-family: STCaiyun;
+				float: right;
+				font-size: 80px;
+				margin-top: 35px;
+				margin-right: 115px;
+				-webkit-animation: jump linear;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-fill-mode: forwards;
+				-webkit-animation-delay: 2.6s;
+			}
+			
+			#dh ul ul {
+				display: none;
+			}
+			
+			#dh ul li:hover> ul {
+				display: block;
+			}
+			
+			#dh ul {
+				list-style: none;
+				position: relative;
+				display: inline-table;
+				margin-top: 0px;
+			}
+			
+			#dh ul li {
+				float: left;
+			}
+			
+			#dh ul li:hover {
+				background: rgba(1,1,1,0.1);
+			}
+			
+			#dh ul li a {
+				display: block;
+				padding-top: 15px;
+				padding-bottom: 13px;
+				padding-left: 20px;
+				padding-right: 20px;
+				color: white;
+				text-decoration: none;
+				transition: background-color .3s ease-in;
+			}
+
+			#dh ul ul {
+				background: #565656;
+				padding: 4px;
+				position: absolute;
+				top: 100%;
+			}
+			
+			#dh ul ul li {
+				float: none;
+				position: relative;
+			}
+			
+			#dh ul ul li a {
+				padding-left: 25px;
+				padding-bottom: 15px;
+				padding-right: 24px;
+				font-size: 15px;
+				color: white;
+				text-align: left;
+			}
+			
+			#dh ul ul li a:hover {
+				color: #FFFFFF;
+			}
+			
+			#dh ul ul li a:hover {
+				background: #000000;
+			}
